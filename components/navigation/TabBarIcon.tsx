@@ -5,5 +5,5 @@ import { type IconProps } from '@expo/vector-icons/build/createIconSet';
 import { type ComponentProps } from 'react';
 
 export function TabBarIcon({ style, ...rest }: IconProps<ComponentProps<typeof Ionicons>['name']>) {
-  return <Ionicons size={28} style={[{ marginBottom: -3 }, style]} {...rest} />;
+  return <Ionicons size={15} style={[{ marginBottom: -3 }, style]} {...rest} />; {/* Esto te modifica todo lo de adentro de la navbar. lo de 'name' es que el name de la vista sea el name en la navbar*/}
 }

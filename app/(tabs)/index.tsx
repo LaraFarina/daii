@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Image, StyleSheet, View, TextInput, Text, Button } from 'react-native';
 import { useRouter } from 'expo-router'; // Importa useRouter de expo-router
-
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';

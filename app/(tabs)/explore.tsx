@@ -9,7 +9,7 @@ const TabTwoScreen: React.FC = () => {
     <View style={styles.container}>
       <Text style={styles.saludo}>Hola {nombre}!</Text> 
       <Text style={styles.introduccion}>
-        Somos una veterinaria destinada al rescate de perros callejeros.
+        Somos una veterinaria destinada al rescate de perros callejeros. Danos plata para seguir salvandolos, somos confiables.
       </Text>
     </View>
   );
